@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DengXinyiGoogleProject</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="btn_enter">Enter</string>
+    <string name="input_place_name">Enter Address, City or Zip Code</string>
+    <string name="description">Description</string>
+    <string name="enter_the_description_of_the_location">Enter the description of the location</string>
+    <string name="image_url">image url</string>
+    <string name="enter_the_url_of_the_image_you_want_to_attach">Enter the url of the image you want to attach</string>
+    <string name="ok">OK</string>
+    <string name="something">something</string>
+</resources>

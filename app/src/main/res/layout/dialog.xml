@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/img_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:text="@string/enter_the_url_of_the_image_you_want_to_attach" />
+
+    <EditText
+        android:layout_below="@id/img_prompt"
+        android:id="@+id/map_url"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/image_url"
+        android:textSize="20sp"
+        android:textAlignment="textStart"
+        android:inputType="textUri"/>
+
+    <TextView
+        android:id="@+id/descrip_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/map_url"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/enter_the_description_of_the_location" />
+
+    <EditText
+        android:id="@+id/map_descrip"
+        android:layout_below="@id/descrip_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textAlignment="textStart"
+        android:hint="@string/description"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/fetch_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/map_descrip"
+        android:layout_marginEnd="18dp"
+        android:text="@string/ok"
+        android:textSize="20sp" />
+</RelativeLayout>
